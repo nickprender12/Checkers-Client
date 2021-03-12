@@ -2,7 +2,7 @@
 
 Try is [here](https://protected-cove-12875.herokuapp.com/) back-end repo [here](https://github.com/nickprender12/Checkers-api)
 ## Screenshot
-
+![Showcase GIF](/screenshots/recording.gif)
 > This is a checkers and chat app I built to learn react.
 
 ## About
