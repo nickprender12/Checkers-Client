@@ -20,7 +20,7 @@ export const Wrapper = styled.section`
     width: 100vw;
     border-radius: 0px;
     margin-top: 0px;
-    height: 90vh;
+    height: 100vh;
     font-size: 1.5rem;
   }
 `;

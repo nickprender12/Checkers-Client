@@ -19,6 +19,9 @@ const Container = styled.div`
   height: 5rem;
   flex-shrink: 0;
   padding-top: 1rem;
+  @media screen and (max-width: 500px) {
+    display: none;
+  }
 `;
 
 const SocialButtons = styled.div`
