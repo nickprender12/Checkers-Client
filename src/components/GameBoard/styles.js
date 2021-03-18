@@ -13,4 +13,9 @@ export const BoardWrapper = styled.div`
     height: 370px;
     /* border-bottom: 1px solid rgba(36, 39, 59, 0.6); */
   }
+  @media screen and (max-width: 900px) {
+    width: 370px;
+    height: 370px;
+    /* border-bottom: 1px solid rgba(36, 39, 59, 0.6); */
+  }
 `;

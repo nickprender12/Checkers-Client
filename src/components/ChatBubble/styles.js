@@ -29,4 +29,8 @@ export const Bubble = styled.section`
     max-width: 85%;
     font-size: 1rem;
   }
+  @media screen and (max-width: 900px) {
+    max-width: 85%;
+    font-size: 1rem;
+  }
 `;

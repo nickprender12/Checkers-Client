@@ -11,4 +11,9 @@ export const Wrapper = styled.div`
     height: 38%;
     width: 100%;
   }
+  @media screen and (max-width: 900px) {
+    height: 38%;
+    min-height: 38%;
+    width: 100%;
+  }
 `

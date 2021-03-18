@@ -14,4 +14,11 @@ export const GameBox = styled.section`
     height: 90%;
     border-bottom: 1px solid rgba(36, 39, 59, 0.6);
   }
+  @media screen and (max-width: 900px) {
+    /* width: 100vw;
+    height: 57%; */
+    height: 90%;
+    border-right: none
+    /* border-bottom: 1px solid rgba(36, 39, 59, 0.6); */
+  }
 `;

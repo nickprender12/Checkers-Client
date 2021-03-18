@@ -10,6 +10,9 @@ export const Container = styled.div`
   @media screen and (max-width: 500px) {
     display: none;
   }
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
 `;
 
 export const SocialButtons = styled.div`

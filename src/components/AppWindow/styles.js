@@ -23,6 +23,13 @@ export const Wrapper = styled.section`
     height: 100vh;
     font-size: 1.5rem;
   }
+  @media screen and (max-width: 900px) {
+    width: 100vw;
+    border-radius: 0px;
+    margin-top: 0px;
+    height: 100vh;
+    font-size: 1.5rem;
+  }
 `;
 
 export const Container = styled.div`
@@ -30,6 +37,11 @@ export const Container = styled.div`
   flex-direction: row;
   height: 90%;
   @media screen and (max-width: 500px) {
+    flex-direction: column;
+    font-size: 1.25rem;
+    align-items: center
+  }
+  @media screen and (max-width: 900px) {
     flex-direction: column;
     font-size: 1.25rem;
     align-items: center
