@@ -1,18 +1,6 @@
-import React from 'react'
-import styled from "styled-components";
-
-
-export const Wrapper = styled.div`
-  display: flex;
-  flex-direction: row;
-`
-    
+import React from "react";
+import { Wrapper } from "./styles";
 
 export default function Lobby(props) {
-
-  return (
-    <Wrapper>
-      {props.children}
-    </Wrapper>
-  )
+  return <Wrapper>{props.children}</Wrapper>;
 }

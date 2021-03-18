@@ -1,25 +1,8 @@
 import React, { useState, useEffect, useContext, useRef } from "react";
-import styled from "styled-components";
+import { GameBox } from "./styles";
 
 import { GameBoard, GameStatusBar } from "../index";
 import { SocketContext } from "../../context/socket";
-
-const GameBox = styled.section`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 600px;
-  /* height: 90%; */
-  border-right: 1px solid rgba(36, 39, 59, 0.6);
-  padding: 1rem;
-  @media screen and (max-width: 500px) {
-    /* width: 100vw;
-    height: 57%; */
-    height: 90%;
-    border-bottom: 1px solid rgba(36, 39, 59, 0.6);
-
-  }
-`;
 
 export default function GameWindow({ userList, currentUser }) {
   const boardSize = 8;
@@ -68,12 +51,12 @@ export default function GameWindow({ userList, currentUser }) {
   }, []);
 
   useEffect(() => {
-    socket.on('user disconnected', () => {
-    alert('Opponent left the game.')
-    // setInGame(false)
-    setBoard(null)
-    })
-  }, [])
+    socket.on("user disconnected", () => {
+      alert("Opponent left the game.");
+      // setInGame(false)
+      setBoard(null);
+    });
+  }, []);
 
   const sendBoard = (newboard, legalMoves, activePlayer, players) => {
     socket.emit("updated board", {

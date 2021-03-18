@@ -1,46 +1,12 @@
 import React from "react";
-import IconButton from "@material-ui/core/IconButton";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
-import { Typography } from "@material-ui/core";
-
-import { ReactComponent as Logo } from "../../resources/images/Logo.svg";
 import { ReactComponent as LinkedIn } from "../../resources/images/linkedinIcon.svg";
 import { ReactComponent as Github } from "../../resources/images/github.svg";
-
-import styled from "styled-components";
+import { Container, SocialButtons, Button, Text } from "./styles";
 
 const sendEmail = () => {
   window.location = "mailto:nickprender@gmail.com";
 };
-
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  height: 5rem;
-  flex-shrink: 0;
-  padding-top: 1rem;
-  @media screen and (max-width: 500px) {
-    display: none;
-  }
-`;
-
-const SocialButtons = styled.div`
-  color: white;
-  background-color: transparent;
-`;
-
-const Button = styled.button`
-  color: white;
-  fill: white;
-  background-color: transparent;
-  border: none;
-  text-decoration: none;
-`;
-
-const Text = styled.div`
-  color: white;
-  font-size: small;
-`;
 
 export default function Footer() {
   return (
