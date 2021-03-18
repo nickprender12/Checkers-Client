@@ -19,7 +19,7 @@ const Title = styled.header`
 export default function Header() {
   return (
     <Title>
-      <p>Checkers | Draughts</p>
+      <p>Checkers | Draughts Pull test</p>
     </Title>
   )
 }
