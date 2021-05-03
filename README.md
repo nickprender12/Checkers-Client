@@ -21,7 +21,7 @@ This is a checkers and chat app I build to further my understanding of React and
 
 ## Things Working
 
-- __Game Logic__ A bit more challenging than I thought it would be. Ran into a few issues with stale state that I resolved with Refs. I am hoping once I intergrate Redux into the project this will resolve the stale state problems and I can remove the Refs.
+- __Game Logic__ Ran into a few issues with stale state that I resolved with Refs. I am hoping once I intergrate Redux into the project this will resolve the stale state problems and I can remove the Refs.
 
 - __Styling__ I was inspired by [this](https://codepen.io/TurkAysenur/pen/ZEpxeYm) project, which took all its styles from the Mac OS UI. This was my first attempt at creating my own custom styles without the help of Bootstrap or MaterialUI. This was also my first pass at using Styled Components. I would like to go back and create a Theme for the styling and then also adjust the styling for more of a light mode.
 
@@ -42,9 +42,6 @@ All the things I would Like to add to this project.
 - [ ] Write in logic for double jumps.
 - [ ] Create a basic AI that users can play against.
 
-## Architecture Diagram
-
-in-progress
 
 ## Support
 
